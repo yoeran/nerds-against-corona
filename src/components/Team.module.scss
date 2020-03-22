@@ -17,19 +17,23 @@
 
 .memberImage {
   display: block;
-  height: 8rem;
-  width: 8rem;
+  height: 6em;
+  width: 6em;
 
   transform: skewY(-20deg);
 
   img {
     transform: skewY(20deg);
   }
+
+  @include mq($medium, max) {
+    font-size: 0.8em;
+  }
 }
 
 .memberInfo {
   flex: 1;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 
 .memberName {

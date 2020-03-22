@@ -14,24 +14,12 @@ export const Explainer = () => {
           mini-hackathons, waar we in korte tijd een probleem proberen op te
           lossen met alle expertises uit ons team.
         </p>
-
-        <p>
-          Het is tijd om onze handen (in gedachten en{" "}
-          <a
-            target="_blank"
-            href="https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/veelgestelde-vragen-over-de-aanpak-van-het-nieuwe-coronavirus-in-nederland"
-          >
-            met gepaste afstand
-          </a>
-          ) ineen te slaan en elkaar te helpen.
-        </p>
       </div>
 
-      <h4>💭 Hulp nodig? Dit initiatief is bedoeld voor:</h4>
+      <h4>💭 Hulp nodig? Dit gratis initiatief is bedoeld voor:</h4>
       <ul>
         <li>
-          Goede doelen / initiatieven die anderen proberen te helpen in deze
-          crisis
+          Goede doelen / projecten die anderen proberen te helpen in deze crisis
         </li>
         <li>
           Bedrijven en ondernemers die geraakt worden door nieuwe beperkende
@@ -45,7 +33,6 @@ export const Explainer = () => {
           Houd de aanvraag klein. Het liefst helpen we zoveel mogelijk mensen,
           dat werkt beter met behapbare en haalbare taken
         </li>
-        <li>Toon indien mogelijk aan dat er draagvlak voor je aanvraag is</li>
         <li>Vul het formulier in, aanvragen via mail worden genegeerd</li>
       </ul>
 
@@ -56,7 +43,7 @@ export const Explainer = () => {
           Advies en opzetten van videochat om je bedrijf draaiende te houden
         </li>
         <li>Online tool inrichten om je vrijwilligers te managen</li>
-        <li>Visuals voor je nieuwe initiatief</li>
+        <li>Visuals voor je project</li>
       </ul>
 
       <div className={styles.cta}>

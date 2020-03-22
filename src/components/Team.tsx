@@ -43,17 +43,10 @@ export const Team = () => {
   return (
     <section className="row">
       <h2 className="row-title">Meet the nerds</h2>
-      <a
-        className="cta-btn"
-        href="https://forms.gle/cBtEH6AsgDcjgF5z8"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <span>Aanmelden als nerd!</span>
-      </a>
+
       <p className="row-para">
-        Wil jij je digitale skills ook inzetten om anderen te helpen? Klik dan
-        op de knop hiernaast en vul het formulier in.
+        Wil jij je digitale skills ook inzetten om anderen te helpen? Klik op de
+        aanmeld knop en vul het formulier in.
       </p>
 
       <div className={styles.wrap}>
@@ -71,6 +64,15 @@ export const Team = () => {
           </div>
         ))}
       </div>
+
+      <a
+        className="cta-btn row-btn"
+        href="https://forms.gle/cBtEH6AsgDcjgF5z8"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <span>Aanmelden als nerd!</span>
+      </a>
     </section>
   )
 }
