@@ -1,0 +1,32 @@
+// Default viewport definitions, subject to change on a project basis.
+$small: 37.5em; // 600px
+$medium: 48em; // 768px
+$large: 61.25em; // 980px
+$huge: 64em; // 1024px
+$gigantic: 105em;
+
+$mqNavSwitch: pxToEm(1060);
+
+/// Apply styles only if viewport validates with the given breakpoint
+/// @param {number} point - Specific breakpoint (use the variables for this)
+/// @param {string} minmax [min] - Determines if the styles should be applied if viewport is bigger or smaller than given breakpoint
+@mixin mq($point, $minmax: min) {
+  @if $minmax == min {
+    @media screen and (min-width: $point) {
+      @content;
+    }
+  } @else if $minmax == max {
+    @media screen and (max-width: $point) {
+      @content;
+    }
+  }
+}
+
+/// Apply styles only when viewport is between two breakpoints
+/// @param {number} min - Minimum breakpoint
+/// @param {number} max - Maximum breakpoint
+@mixin mq-range($min, $max) {
+  @media screen and (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}

@@ -1,0 +1,26 @@
+:root {
+  --primary-clr: #4a0059;
+
+  --light-text: #718096;
+  --light-purple: #ab24ff;
+}
+
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--primary-clr);
+  color: #fff;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #21183c;
+  font-size: 1.25em;
+  line-height: 1.4;
+}

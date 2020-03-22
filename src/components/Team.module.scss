@@ -1,0 +1,39 @@
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.member {
+  display: flex;
+}
+
+.memberImage {
+  display: block;
+  height: 8rem;
+  width: 8rem;
+
+  transform: skewY(-20deg);
+
+  img {
+    transform: skewY(20deg);
+  }
+}
+
+.memberInfo {
+  flex: 1;
+  margin-left: 2rem;
+}
+
+.memberName {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.memberTitle {
+  margin: 0.15rem 0;
+  color: var(--light-text);
+}
+
+.memberSkills {
+  margin: 0;
+}
