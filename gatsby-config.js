@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Nerds Against Corona`,
-    description: `Gatsby website by nerds who want to help people during the COVID-19 crisis.`,
+    description: `Nerd-powered mini-hackathons om hulp en ondersteuning te bieden aan diegene die het nodig hebben!`,
     author: `@yoeran`,
   },
   plugins: [
