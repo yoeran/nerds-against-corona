@@ -49,11 +49,11 @@ export const Team = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <span>Wordt ook een nerd!</span>
+        <span>Aanmelden als nerd!</span>
       </a>
       <p className="row-para">
-        Wil jij je digitale skills ook inzetten om anderen te helpen? Stuur dan
-        een bericht, we nemen dan zsm contact op.
+        Wil jij je digitale skills ook inzetten om anderen te helpen? Klik dan
+        op de knop hiernaast en vul het formulier in.
       </p>
 
       <div className={styles.wrap}>
