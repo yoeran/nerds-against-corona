@@ -1,6 +1,12 @@
+@import "../styles/modules/mq.scss";
+
 .wrap {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
+
+  @include mq($medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .member {

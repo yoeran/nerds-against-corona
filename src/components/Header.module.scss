@@ -1,5 +1,8 @@
+@import "../styles/modules/mq.scss";
+
 .wrap {
   padding: 1rem;
+  padding-top: 3rem;
   text-align: center;
 
   h1 {
@@ -8,10 +11,12 @@
 
   a {
     text-decoration: none;
+    display: block;
   }
 }
 
 .logo {
   height: 8rem;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
 }
