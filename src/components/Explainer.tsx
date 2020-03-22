@@ -33,15 +33,17 @@ export const Explainer = () => {
           Goede doelen / initiatieven die anderen proberen te helpen in deze
           crisis
         </li>
-        <li>Bedrijven en ondernemers die geraakt worden door de crisis</li>
+        <li>
+          Bedrijven en ondernemers die geraakt worden door nieuwe beperkende
+          wetgeving
+        </li>
       </ul>
 
       <h4>Spelregels</h4>
       <ul>
         <li>
-          Houd de aanvraag beknopt qua werkzaamheden. Het liefst helpen we
-          zoveel mogelijk mensen, dat werkt beter met behapbare en realistische
-          taken
+          Houd de aanvraag klein. Het liefst helpen we zoveel mogelijk mensen,
+          dat werkt beter met behapbare en haalbare taken
         </li>
         <li>Toon indien mogelijk aan dat er draagvlak voor je aanvraag is</li>
         <li>Vul het formulier in, aanvragen via mail worden genegeerd</li>

@@ -12,6 +12,12 @@ const MEMBERS = [
     skills:
       "Bouwen van websites en digitale tools, hulp met hosting, prototypes en IT advies.",
   },
+  {
+    id: "pelle",
+    name: "Pelle Kuipers",
+    title: "Visual designer / video editor / geluid mixer",
+    skills: "De artistieke kant: Visual design, video editing, geluid mixen",
+  },
 ]
 
 export const Team = () => {
@@ -26,6 +32,9 @@ export const Team = () => {
 
     query {
       yoeran: file(relativePath: { eq: "team/yoeran-luteijn.jpg" }) {
+        ...squareImage
+      }
+      pelle: file(relativePath: { eq: "team/pelle-kuipers.jpg" }) {
         ...squareImage
       }
     }
