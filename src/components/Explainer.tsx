@@ -10,7 +10,7 @@ export const Explainer = () => {
           Momenteel houdt COVID-19 de wereld in zijn greep. Het heeft impact op
           allerlei onderdelen van het dagelijks leven. Om anderen te helpen
           hebben we besloten om een gedeelte van onze tijd vrij te maken en onze
-          digitale skills in te zetten. Denk daarbij aan een soort
+          digitale skills vrijwillig in te zetten. Denk daarbij aan een soort
           mini-hackathons, waar we in korte tijd een probleem proberen op te
           lossen met alle expertises uit ons team.
         </p>
@@ -27,7 +27,7 @@ export const Explainer = () => {
         </p>
       </div>
 
-      <h4>Hulp nodig? Dit initiatief is bedoeld voor:</h4>
+      <h4>💭 Hulp nodig? Dit initiatief is bedoeld voor:</h4>
       <ul>
         <li>
           Goede doelen / initiatieven die anderen proberen te helpen in deze
@@ -39,7 +39,7 @@ export const Explainer = () => {
         </li>
       </ul>
 
-      <h4>Spelregels</h4>
+      <h4>✅ Spelregels</h4>
       <ul>
         <li>
           Houd de aanvraag klein. Het liefst helpen we zoveel mogelijk mensen,
@@ -47,6 +47,16 @@ export const Explainer = () => {
         </li>
         <li>Toon indien mogelijk aan dat er draagvlak voor je aanvraag is</li>
         <li>Vul het formulier in, aanvragen via mail worden genegeerd</li>
+      </ul>
+
+      <h4>💡 Voorbeelden</h4>
+      <ul>
+        <li>Een simpele webpagina om je nieuwe initatief uit te leggen</li>
+        <li>
+          Advies en opzetten van videochat om je bedrijf draaiende te houden
+        </li>
+        <li>Online tool inrichten om je vrijwilligers te managen</li>
+        <li>Visuals voor je nieuwe initiatief</li>
       </ul>
 
       <div className={styles.cta}>

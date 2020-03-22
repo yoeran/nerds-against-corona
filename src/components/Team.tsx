@@ -10,13 +10,13 @@ const MEMBERS = [
     name: "Yoeran Luteijn",
     title: "Creative Developer",
     skills:
-      "Bouwen van websites en digitale tools, hulp met hosting, prototypes en IT advies.",
+      "Bouwen van websites en digitale tools, hulp met hosting, prototypes en ICT advies.",
   },
   {
     id: "pelle",
     name: "Pelle Kuipers",
     title: "Visual designer / video editor / geluid mixer",
-    skills: "De artistieke kant: Visual design, video editing, geluid mixen",
+    skills: "De artistieke kant: Visual design, video editing, geluid mixen.",
   },
 ]
 
@@ -42,14 +42,14 @@ export const Team = () => {
 
   return (
     <section className="row">
-      <h2 className="row-title">Team</h2>
+      <h2 className="row-title">Meet the nerds</h2>
       <a
         className="cta-btn"
         href="https://forms.gle/cBtEH6AsgDcjgF5z8"
         target="_blank"
         rel="noreferrer"
       >
-        <span>Join the team!</span>
+        <span>Wordt ook een nerd!</span>
       </a>
       <p className="row-para">
         Wil jij je digitale skills ook inzetten om anderen te helpen? Stuur dan
