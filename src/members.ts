@@ -19,4 +19,11 @@ export const MEMBERS = [
     skills:
       "Opzetten van cloud functies, hosting, digitale tools, koppelingen en automatische processen.",
   },
+  {
+    id: "tom-verhage",
+    name: "Tom Verhage",
+    title: "UX Design",
+    skills:
+      "Complexe dingen simpel maken (problemen, maar ook bijvoorbeeld interfaces).",
+  },
 ]
