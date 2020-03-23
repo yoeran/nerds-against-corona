@@ -4,21 +4,7 @@ import Img from "gatsby-image"
 
 import styles from "./Team.module.scss"
 
-const MEMBERS = [
-  {
-    id: "yoeran",
-    name: "Yoeran Luteijn",
-    title: "Creative Developer",
-    skills:
-      "Bouwen van websites en digitale tools, hulp met hosting, prototypes en ICT advies.",
-  },
-  {
-    id: "pelle",
-    name: "Pelle Kuipers",
-    title: "Visual designer / video editor / geluid mixer",
-    skills: "De artistieke kant: Visual design, video editing, geluid mixen.",
-  },
-]
+import { MEMBERS } from "../members"
 
 export const Team = () => {
   const data = useStaticQuery(graphql`
@@ -31,11 +17,17 @@ export const Team = () => {
     }
 
     query {
-      yoeran: file(relativePath: { eq: "team/yoeran-luteijn.jpg" }) {
-        ...squareImage
-      }
-      pelle: file(relativePath: { eq: "team/pelle-kuipers.jpg" }) {
-        ...squareImage
+      allFile(filter: { dir: { regex: "/team/" } }) {
+        edges {
+          node {
+            name
+            childImageSharp {
+              fluid(maxWidth: 300, maxHeight: 300) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
       }
     }
   `)
@@ -52,19 +44,25 @@ export const Team = () => {
       </p>
 
       <div className={styles.wrap}>
-        {MEMBERS.map(member => (
-          <div key={member.id} className={styles.member}>
-            <Img
-              className={styles.memberImage}
-              fluid={data[member.id].childImageSharp.fluid}
-            />
-            <div className={styles.memberInfo}>
-              <h4 className={styles.memberName}>{member.name}</h4>
-              <p className={styles.memberTitle}>{member.title}</p>
-              <p className={styles.memberSkills}>{member.skills}</p>
+        {MEMBERS.map(member => {
+          const image = data.allFile.edges.find(
+            edge => edge.node.name === member.id
+          )
+
+          return (
+            <div key={member.id} className={styles.member}>
+              <Img
+                className={styles.memberImage}
+                fluid={image.node.childImageSharp.fluid}
+              />
+              <div className={styles.memberInfo}>
+                <h4 className={styles.memberName}>{member.name}</h4>
+                <p className={styles.memberTitle}>{member.title}</p>
+                <p className={styles.memberSkills}>{member.skills}</p>
+              </div>
             </div>
-          </div>
-        ))}
+          )
+        })}
       </div>
 
       <a
