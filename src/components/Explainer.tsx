@@ -41,6 +41,7 @@ export const Explainer = () => {
         <li>Een simpele webpagina om je nieuwe initatief uit te leggen</li>
         <li>
           Advies en opzetten van videochat om je bedrijf draaiende te houden
+          (bijvoorbeeld lessen via videochat)
         </li>
         <li>Online tool inrichten om je vrijwilligers te managen</li>
         <li>Visuals voor je project</li>

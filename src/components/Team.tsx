@@ -45,8 +45,10 @@ export const Team = () => {
       <h2 className="row-title">Meet the nerds</h2>
 
       <p className="row-para">
-        Wil jij je digitale skills ook inzetten om anderen te helpen? Klik op de
-        aanmeld knop en vul het formulier in.
+        Ben je creatief en vind je het leuk om in korte tijd oplossingen te
+        verzinnen en uit te werken? Wil je je digitale skills vrijwillig
+        inzetten om anderen te helpen? Meld je dan aan als nerd en doe met ons
+        mee! Klik op de aanmeld knop en vul het formulier in.
       </p>
 
       <div className={styles.wrap}>

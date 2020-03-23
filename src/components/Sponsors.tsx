@@ -5,10 +5,10 @@ export const Sponsors = () => {
     <section className="row">
       <h2 className="row-title">Sponsors</h2>
       <p className="row-para">
-        Geen tijd over om te helpen, maar wel willen bijdragen? Sponsor dit
-        initiatief zodat wij meer tijd vrij kunnen maken om dit initiatief
-        verder te brengen. Dit kan door middel van financiële middelen, maar
-        natuurlijk ook op andere manieren. We horen graag je voorstel!
+        Geen tijd om te helpen, maar je wilt wel bijdragen? Sponsor dit
+        initiatief zodat wij meer tijd vrij kunnen maken om anderen te helpen.
+        Dit kan door middel van financiële middelen, maar natuurlijk ook op
+        andere manieren. We horen graag je voorstel!
       </p>
       <a
         className="cta-btn row-btn"
