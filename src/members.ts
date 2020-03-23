@@ -26,4 +26,11 @@ export const MEMBERS = [
     skills:
       "Complexe dingen simpel maken (problemen, maar ook bijvoorbeeld interfaces).",
   },
+  {
+    id: "patrick-de-kievit",
+    name: "Patrick de Kievit",
+    title: "Software and infrastructure engineer ",
+    skills:
+      "Opzetten infrastructuren tbv applicatie/website hosting. Backend development (high performance, high available/scalable applications).",
+  },
 ]
