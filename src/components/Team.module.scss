@@ -16,15 +16,24 @@
 }
 
 .memberImage {
+  position: relative;
   display: block;
   height: 6em;
   width: 6em;
   margin-top: 0.4rem;
+  object-fit: cover;
 
-  transform: skewY(-20deg);
-
-  img {
-    transform: skewY(20deg);
+  &:after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent url("../images/avatar-overlay.svg") center center
+      no-repeat;
+    background-size: contain;
   }
 
   @include mq($medium, max) {
