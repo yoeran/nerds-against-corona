@@ -36,7 +36,13 @@ export const MEMBERS = [
   {
     id: "johan-bikker",
     name: "Johan Bikker",
-    title: "Data analist / project manager ",
+    title: "Data analist / project manager",
     skills: "Data analyseren en visualiseren.",
+  },
+  {
+    id: "peter-bin",
+    name: "Peter Bin",
+    title: "Cyber Security Specialist",
+    skills: "Advies Cyber Security & beveiligen IT-omgevingen.",
   },
 ]
