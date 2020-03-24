@@ -31,7 +31,8 @@ export const Explainer = () => {
       <ul>
         <li>
           Houd de aanvraag klein. Het liefst helpen we zoveel mogelijk mensen,
-          dat werkt beter met behapbare en haalbare taken
+          dat werkt beter met behapbare en haalbare taken. Idealiter is een
+          aanvraag in maximaal 1 werkdag af te ronden.
         </li>
         <li>Vul het formulier in, aanvragen via mail worden genegeerd</li>
       </ul>

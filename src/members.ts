@@ -33,4 +33,10 @@ export const MEMBERS = [
     skills:
       "Opzetten infrastructuren tbv applicatie/website hosting. Backend development (high performance, high available/scalable applications).",
   },
+  {
+    id: "johan-bikker",
+    name: "Johan Bikker",
+    title: "Data analist / project manager ",
+    skills: "Data analyseren en visualiseren.",
+  },
 ]

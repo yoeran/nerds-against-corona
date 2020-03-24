@@ -18,6 +18,19 @@ const IndexPage = () => (
     <Explainer />
     <Team />
     <Sponsors />
+
+    <section className="row">
+      <p>
+        Ben je geen nerd maar wil je wel helpen?
+        <br />
+        Of heb je hulp nodig, maar niet op digitaal vlak?
+        <br />
+        Check dan{" "}
+        <a href="https://www.iwillhelpyou.nl/" target="_blank">
+          iWillHelpYou.nl
+        </a>
+      </p>
+    </section>
   </Layout>
 )
 
