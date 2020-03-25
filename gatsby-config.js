@@ -29,5 +29,13 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-plugin-matomo",
+      options: {
+        siteId: "5",
+        matomoUrl: "https://analytics.voidscape.nl",
+        siteUrl: "https://www.nerds-against-corona.nl",
+      },
+    },
   ],
 }
