@@ -46,11 +46,11 @@ export const Team = () => {
       <div className={styles.wrap}>
         {MEMBERS.map(member => {
           const image = data.allFile.edges.find(
-            edge => edge.node.name === member.id
+            edge => edge.node.name === member.filename
           )
 
           return (
-            <div key={member.id} className={styles.member}>
+            <div key={member.filename} className={styles.member}>
               <Img
                 className={styles.memberImage}
                 fluid={image.node.childImageSharp.fluid}
