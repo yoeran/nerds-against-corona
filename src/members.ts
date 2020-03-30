@@ -66,4 +66,11 @@ export const MEMBERS = [
     skills:
       "Creatief concepten bedenken of complete visuele merk/elementen creëren.",
   },
+  {
+    filename: "sammy-de-keijne",
+    name: "Sammy de Keijne",
+    title: "Digital Producer / UX Designer",
+    skills:
+      "Strategie, projectmanagement en UX design voor online platforms en hun ecosystemen. Illustreren, fotograferen en content creatie zijn ook mogelijk.",
+  },
 ]
