@@ -8,6 +8,8 @@ import { Explainer } from "../components/Explainer"
 
 import headerImage from "../images/nerds-against-corona-header.png"
 
+import coronaCommunityCare from "../images/corona-community-care_logo.png"
+
 const IndexPage = () => (
   <Layout>
     <Seo
@@ -25,9 +27,14 @@ const IndexPage = () => (
         <br />
         Of heb je hulp nodig, maar niet op digitaal vlak?
         <br />
-        Check dan{" "}
-        <a href="https://www.iwillhelpyou.nl/" target="_blank">
-          iWillHelpYou.nl
+        Ga dan naar:
+        <a
+          href="https://coronacommunitycare.nl/"
+          className="ccc-logo"
+          target="_blank"
+          rel="noreferer"
+        >
+          <img src={coronaCommunityCare} alt="Corona Community Care" />
         </a>
       </p>
     </section>
