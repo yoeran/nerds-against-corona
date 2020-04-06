@@ -73,4 +73,11 @@ export const MEMBERS = [
     skills:
       "Strategie, projectmanagement en UX design voor online platforms en hun ecosystemen. Illustreren, fotograferen en content creatie zijn ook mogelijk.",
   },
+  {
+    filename: "ivo-van-persie",
+    name: "Ivo van Persie",
+    title: "Business Development",
+    skills:
+      "Helpen zoeken naar nieuwe invalshoeken voor bestaande organisaties.",
+  },
 ]
